@@ -1,1 +1,1 @@
-# tic-tac-toe
+Interactive Tic-Tac-Toe game with 2 players
