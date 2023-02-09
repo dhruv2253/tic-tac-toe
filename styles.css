@@ -1,0 +1,24 @@
+.cell {
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid;
+    box-sizing: border-box;
+    display: flex;
+    background-color: green;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 17vh);
+    grid-template-rows: repeat(3, 17vh);
+    height: 51vh;
+    width: 51vw;
+    
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
