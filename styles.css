@@ -3,7 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid;
+    border: 1px solid black;
     box-sizing: border-box;
     display: flex;
     background-color: green;
@@ -15,10 +15,11 @@
     grid-template-rows: repeat(3, 17vh);
     height: 51vh;
     width: 51vw;
-    
 }
 
 body {
     display: flex;
     flex-direction: column;
+    
 }
+
