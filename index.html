@@ -10,7 +10,11 @@
 </head>
 <body>
     <h1>Tic-Tac-Toe</h1>
-    <h2 class="gameMessage">Player X's Turn</h2>
+    <h2 class="gameMessage"></h2>
+    <div class="namesInput">
+        <div class="playerOneInfo"><label for="playerOne">P1</label><input type="text" id="playerOne"></div>
+        <div class="playerTwoInfo"><label for="playerTwo">P2</label><input type="text" id="playerTwo"></div>
+    </div>
     <div class="container">
         <div class="cell top-left"></div>
         <div class="cell top-middle"></div>
@@ -22,5 +26,6 @@
         <div class="cell bottom-middle"></div>
         <div class="cell bottom-right"></div>
     </div>
+    <button class="start">Start Game</button>
 </body>
 </html>
